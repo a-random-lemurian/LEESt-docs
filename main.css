@@ -1,0 +1,36 @@
+/* body */
+body {background-color: #000; color:#fff; font-family: 'Roboto', Arial, Helvetica, sans-serif}
+/* headers */
+h1, h2, h3, h4 {font-family: 'Ubuntu Light', Verdana, Geneva, Tahoma, sans-serif; color:#fff}
+/* images */
+.map-showcase {display: block;margin-left: auto;margin-right: auto;width: 70%;}
+/* links */
+a {color: yellow; text-decoration: none;}
+a.wbar {color:black}
+/* bars */
+a.subnav {
+    background-color: #fff;
+    color: #000;
+    padding: 3px 12px 3px 12px;
+    text-decoration:none;
+	font-family: 'Ubuntu Light', Verdana, Geneva, Tahoma, sans-serif;
+	position:static}
+a.subnav:hover {
+    background-color: #f00;
+    color: #fff;}
+/* div class */
+.encyclopedia    {padding: 4px auto 4px auto; margin: 40px auto 4px auto; width: 85%; font-size: 20px;}
+.kiv349          {transform:rotate(90deg); float: right; margin: 0px 24px 0px 0px;}
+.copyright       {font-size: 10px}
+.white-bar       {background-color: #fff; color:#000; padding: 3px 8px 3px 8px}
+.drop            {background-color: #3498DB;color: white; padding: 1.; font-size: 16px;border: none; cursor: auto}
+.download-link   {font-family: 'Ubuntu-Bold'}
+.navbar1         {list-style-type: none}
+.encyclopedia {
+    padding: 4px auto 4px auto;
+    margin: 40px auto 4px auto;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Helvetica Neue',Verdana, Geneva, Tahoma, sans-serif;}
+
+
