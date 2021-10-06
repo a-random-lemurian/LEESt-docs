@@ -1,7 +1,7 @@
 /* body */
 body {background-color: #000; color:#fff; font-family: 'Roboto', Arial, Helvetica, sans-serif}
 /* headers */
-h1, h2, h3, h4 {font-family: 'Ubuntu Light', Verdana, Geneva, Tahoma, sans-serif; color:#fff}
+h1, h2, h3, h4, h5, h6 {font-family: 'Ubuntu Light', Verdana, Geneva, Tahoma, sans-serif; color:#fff}
 /* images */
 .map-showcase {display: block;margin-left: auto;margin-right: auto;width: 70%;}
 /* links */
