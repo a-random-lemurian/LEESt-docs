@@ -25,7 +25,8 @@ a.subnav:hover {
 .drop            {background-color: #3498DB;color: white; padding: 1.; font-size: 16px;border: none; cursor: auto}
 .download-link   {font-family: 'Ubuntu-Bold'}
 .navbar1         {list-style-type: none}
-.encyclopedia-header {font-family: 'Ubuntu Light', 'Georgia', serif; font-size: 42px;}
+.encyclopedia-header {font-family: 'Ubuntu Light', 'Georgia', serif; font-size: 42px; padding-left: 50px; margin-top: 25px;}
+.encyclopedia-header-nosize {font-family: 'Ubuntu Light', 'Georgia', serif; padding-left: 50px; margin-top: 25px;}
 .encyclopedia {
     padding: 4px auto 4px auto;
     margin: 40px auto 4px auto;
