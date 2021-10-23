@@ -5,11 +5,15 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
+	<div class='front-scripts'>
+		
+	</div>
 		<div class="white-bar">
 			<a class="subnav download-link" href=download.html><b>Download</b></a>
 			<a class="subnav" href="https://github.com/a-random-lemurian/Lemurias-Extra-ES-Stuff/blob/main/changelog.md">Changelog</a>
 			<a class="subnav" href="sayari.html">Lore</a>
-			<div style="float: right">Lemuria's Extra Endless Sky Stuff v0.5</div>
+			<div style="float: right" id="randphrase" onload="getPhrase()">
+			</div>
 		</div>
 	<div style="text-align: center">
 		<h1>Improve your Endless Sky experience.</h1>
@@ -18,5 +22,9 @@
 	<hr>
 	<img class="map-showcase" src="image/illuminaregions.png" alt="Picture that shows the systems added by the plugin. This includes the systems Orbona, Illuria, Illumina, Deriie, Suerolli, Serfeiia, Jarkiiens, Aljuik, and Duffeni.">
 <div class="copyright" style="text-align: center">(C) Lemuria 2021. Images used in the plugin are the property of their respective owners. The text of this webpage is licensed under the GPL v3.</div>
+<div class="scripting">
+	<script src="script/js/randomphrase.js"></script>
+	<script>window.onload = function () {getPhrase();};</script>
+</div>
 </body>
 </html>
