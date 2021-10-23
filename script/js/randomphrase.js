@@ -1,7 +1,7 @@
 const Phrases = Array(
 	"The world's greatest Endless Sky plugin.",
 	"Where that one Hai ambassador reigns supreme.",
-	"The Anime Organization - archiving mankind's anime since 2133 CE",
+	"The Anime Organization - archiving mankind's anime since 2344 CE",
 	"RNS Triggerhappy: A salvager's worst enemy",
 	"Best of luck to you, First Last!",
 	"I've been a textile worker on New Boston for God knows how long.",
