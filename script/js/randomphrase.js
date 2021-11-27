@@ -8,7 +8,8 @@ const Phrases = Array(
 	"The all-new Amidala-class Battleship. Based on alien designs.",
 	"I've heard Orbona is a great place for salvage.",
 	"The SPA - letting kids sleep at night with their Sayari Plushies since God knows how long.",
-	"Illumina Regions tours, 15% off"
+	"Illumina Regions tours, 15% off",
+	"git clone https://github.com/a-random-lemurian/Lemurias-Extra-ES-Stuff.git"
 )
 function getPhrase() {
 	let phraseIndex = Math.floor(Math.random() * Phrases.length);
