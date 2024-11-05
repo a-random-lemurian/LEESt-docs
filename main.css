@@ -34,3 +34,43 @@ a.subnav:hover {
     font-size: 20px;
     font-family: 'Helvetica Neue',Verdana, Geneva, Tahoma, sans-serif;}
 .lemuria-wordmark {text-align: center;}
+
+.start-blurb {
+    background-image: url("/image/illumina-background.png");
+    margin: 5px;
+    margin-bottom: 60px;
+}
+
+.start-blurb-text {
+    padding: 40px;
+    font-size: 150%;
+    background-color: black;
+    max-width: 800px;
+}
+
+.download-button {
+    text-align: center;
+}
+
+.features {
+    display: block;
+}
+
+.feature-item {
+    padding: 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .feature-column {
+        flex: 100%;
+    }
+}
